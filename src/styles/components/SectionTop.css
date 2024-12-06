@@ -1,0 +1,118 @@
+.hero-container {
+  /* background-color: #000000; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.text-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.role {
+  color: #b14eeb;
+  font-size: 1.5rem;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+.status-button {
+  background-color: #4eebc0;
+  color: black;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.status-button:hover {
+  background-color: #3dd1a8;
+}
+
+.image-section {
+  flex-shrink: 0;
+  margin-left: 2rem;
+}
+
+.gorilla-image {
+  filter: drop-shadow(0 0 20px #b14eeb);
+}
+
+.bottom-section {
+  text-align: center;
+  margin-top: 4rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience-text {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+:global(.social-icon) {
+  color: white;
+  width: 24px;
+  height: 24px;
+  transition: color 0.3s ease;
+}
+
+:global(.social-icon:hover) {
+  color: #b14eeb;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .image-section {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+
+  .bottom-section {
+    margin-top: 3rem;
+  }
+}
