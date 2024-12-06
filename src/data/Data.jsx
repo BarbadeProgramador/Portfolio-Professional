@@ -1,3 +1,4 @@
+//SECTION TOP
 const jobSearch = [
     {
         state: 'Disponble',
@@ -7,7 +8,7 @@ const jobSearch = [
     }
 ]
 
-//EXPERIENCE JOB 
+//EXPERIENCE JOB SECTION
 const Experience = [
     {
         enterphrise: 'Mocion',
@@ -25,9 +26,15 @@ const Experience = [
     }
 ]
 
+
+//PROJECTS SECTION 
 const Projects_Professional = [
     {
-
+        title:'Kardex',
+        description: 'project',
+        tecnologies [
+            
+        ]
     },
     {
         
@@ -61,6 +68,7 @@ const Projects_personal = [
     }
 ]
 
+//STUDY SECTION 
 const Study = [
     {
         title: 'Sena',
@@ -73,5 +81,15 @@ const Study = [
         subTitle: 'Sena',
         date: '2019-2022',
         description: 'qweqweqwcdadasdqwaqweqweqwcdadasdqwaqweqweqwcdadasdqwaqweqweqwcdadasdqwaqweqweqwcdadasdqwaqweqweqwcdadasdqwaqweqweqwcdadasdqwa'
+    }
+]
+
+
+//ABOUTE SECTION 
+const AboutMe = [
+
+    {
+        description: 'qweqweqwcdadasdqwaqweqweqwcdadasdqwaqweqweqwcdadasdqwaqweqweqwcdadasdqwaqweqweqwcdadasdqwaqweqweqwcdadasdqwaqweqweqwcdadasdqwa' ,
+        img: 'e'
     }
 ]
