@@ -3,6 +3,7 @@ import '../styles/components/Section-AboutMe.css';
 
 export  function AboutMe() {
   return (
+
     <div className="container">
       <div className="content">
         <h1 className="title">

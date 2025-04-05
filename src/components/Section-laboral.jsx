@@ -6,8 +6,9 @@ export  function Timeline() {
     <div className="timeline-container">
       <h2 className="timeline-title">Experiencia Laboral</h2>
       <div className="timeline">
+
         <div className="timeline-item">
-          <div className="timeline-dot"></div>
+
           <div className="timeline-content">
             <h3>Desarrollador Full Stack</h3>
             <h4>TechInnovate Solutions</h4>
@@ -16,9 +17,11 @@ export  function Timeline() {
               Desarrollo y mantenimiento de aplicaciones web escalables utilizando React, Node.js y MongoDB. Implementación de nuevas características y optimización del rendimiento de las aplicaciones existentes.
             </p>
           </div>
+          
         </div>
+        
         <div className="timeline-item">
-          <div className="timeline-dot"></div>
+
           <div className="timeline-content">
             <h3>Analista de Datos Junior</h3>
             <h4>DataInsight Corp</h4>

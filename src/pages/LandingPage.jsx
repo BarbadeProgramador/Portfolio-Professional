@@ -10,7 +10,6 @@ export function Landing(){
     return(
         <>
         <div>
-            <Header/>
             <SectionTop/>
             <Timeline/>
             <SectionProject/>

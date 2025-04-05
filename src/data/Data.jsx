@@ -29,13 +29,15 @@ const Experience = [
 
 //PROJECTS SECTION 
 const Projects_Professional = [
+    
     {
         title:'Kardex',
         description: 'project',
-        tecnologies [
-            
-        ]
+        tecnologies: {
+            name: 'Java'
+        }
     },
+    
     {
         
     },
@@ -43,6 +45,8 @@ const Projects_Professional = [
 
     }
 ]
+    
+
 
 const Projects_Freelance = [
     {
