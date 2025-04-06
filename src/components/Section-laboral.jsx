@@ -15,6 +15,8 @@ export function Timeline() {
     console.log(dataInter)
   }, [])
 
+
+  
   return (
     <div className="timeline-container">
       <h2 className="timeline-title">Experiencia Laboral</h2>
