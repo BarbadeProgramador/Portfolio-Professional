@@ -1,5 +1,5 @@
 export function Card({ data }) {
-    const { tecnologies, title, description } = data;
+    const { tecnologies, title, description,image} = data;
 
     console.log(data)
     console.log(title)
@@ -8,7 +8,8 @@ export function Card({ data }) {
         <div className="project-card">
             <div className="project-image">
                 <img
-                    src=""
+                    className="project-img"
+                    src={image}
                     alt=""
                     width={400}
                     height={200}

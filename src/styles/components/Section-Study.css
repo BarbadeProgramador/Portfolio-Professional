@@ -1,7 +1,13 @@
+
 .description-content-two{
     margin-top: -24px;
 }
 
+.description-content-two h3{
+   color: rgb(111, 125, 128) ;
+}
+
 .description-content-two h4{
     margin-top: -20px;
+    color: rgb(99, 97, 93);
 }

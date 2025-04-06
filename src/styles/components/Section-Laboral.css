@@ -46,7 +46,8 @@
 }
 
 .timeline-content h4 {
-  margin: 0.5rem 0;
+  /* s */
+  margin-top: -20px;
   font-size: 1rem;
   /* color: rgb(239, 65, 123); */
   /* color: rgb(102, 207, 207); */
@@ -55,8 +56,8 @@
 
 .timeline-date {
   font-size: 0.875rem;
+  margin-top: -10px;
   color: #888;
-  margin: 0.5rem 0;
 }
 
 .timeline-description {

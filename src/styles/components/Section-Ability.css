@@ -1,0 +1,11 @@
+
+
+.image-ability{
+    width: 1000px;
+    height: auto;
+}
+
+.container-ability{
+    display: flex;
+    justify-content: center;
+}
