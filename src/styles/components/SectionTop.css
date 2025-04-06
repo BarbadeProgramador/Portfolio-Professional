@@ -1,10 +1,20 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-
-
 
 body{
   /* background-color: antiquewhite; */
+}
+
+.content-message{
+  /* background-color: rebeccapurple; */
+  display: flex;
+  position: absolute;
+  top: 0;
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+}
+
+.content-message span{
+  color: rgb(230, 206, 170);
 }
 
 .hero-container{
@@ -12,7 +22,7 @@ body{
   flex-direction: column;
   /* background-color: aqua; */
   padding-top: 20px;
-  font-family: "Inria Sans", sans-serif;
+  font-family: "DM Serif Text", serif;
   font-weight: 700;
   font-style: normal;
   color: whitesmoke;
@@ -35,20 +45,16 @@ body{
   /* background-color: black; */
   font-size: 35px;
   max-width: 700px;
-  align-items: flex-start;
-  margin-left: 20px;
+  margin-left: 70px;
   
 }
 
-/* .text-section button{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 .role{
   /* background-col or: aliceblue; */
-  margin-top: -20px;
+  font-size: 30px;
+  margin-top: -40px;
+  color: rgb(239, 65, 123);
 }
 /* 
 
@@ -62,15 +68,18 @@ body{
 .status-button{
   /* position: absolute; */
   /* margin-top: 380px; */
+  font-family: "DM Serif Text", serif;
   border-radius: 10px;
-  width: 120px;
-  color: rgb(13, 39, 62);
-  background-color: rgba(55, 255, 0, 0.751);
+  border: solid 3px;
+  border-color: rgb(15, 95, 11);
+  width: 300px;
+  color: rgb(178, 239, 214);
+  background-color: rgba(12, 38, 5, 0.751);
   margin: 0%;
-  font-family: "Inria Sans", sans-serif;
+  font-size: 18px;
+  /* font-family: "Inria Sans", sans-serif;
   font-weight: 700;
-  font-style: normal;
-  
+  font-style: normal; */
 }
 
 .bottom-section{
@@ -79,6 +88,10 @@ body{
   font-size: 20px;
 }
 
+.bottom-section span{
+  color: rgb(230, 206, 170);
+  /* color: rgb(102, 207, 207); */
+}
 
 .social-links{
   display: flex;
@@ -90,18 +103,35 @@ body{
   width: 500px;
   height: auto;
 }
+
+/* .text-section p span {
+display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* 
+
 .role span {
   color: rgb(239, 65, 123);
-}
+} */
+ 
+/* h1{
+  font-size: 5px;
+} */
 
 h1 span{
-  color: rgb(75, 231, 231);
+  color: rgb(102, 207, 207);
 }
 
 .button-container{
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+  margin-top: 5%;
   width: 580px;
+ }
+
+ .icon-button{
+  border-radius: 16px;
+  width: 54px;
+  padding: 5px;
  }

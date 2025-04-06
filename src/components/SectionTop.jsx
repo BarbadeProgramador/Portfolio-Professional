@@ -1,39 +1,56 @@
 import '../styles/components/SectionTop.css'
-import { SplitText }  from './ui/Split';
+import { FaLinkedin, FaGithub, FaEnvelope, FaBriefcase } from "react-icons/fa";
+import { SplitText } from './ui/Split';
 
-export function SectionTop(){
-    return ( 
+export function SectionTop() {
+  return (
     <div className="hero-container">
-      
+
       <div className="hero-content">
+
+        <div className='content-message'>
+          <p><span>"Imagina sin límites y actúa con decisión..." </span> - Brain Tracy</p>
+        </div>
+
         <div className="text-section">
+          <div className='content-name'>
           <h1>Hola, Soy <span>Juan Sebastian Rodriguez</span></h1>
-          <p className="role"><span>Desarrollador &</span> Analista</p>
-          <div className='button-container'>
-          <button className="status-button">Disponible para trabajar</button>
-          </div>      
-          
+          </div>
+          <p className="role"><strong><span>Desarrollador &</span> Analista</strong></p>
+          {/* <div className='button-container'>
+            <button className="status-button">
+              Disponible
+            </button>
+
+          </div> */}
+
         </div>
 
         <div className="image-section">
           <img src="images/budaimagen.png" alt="Gorilla illustration" className='image-gorilla' />
         </div>
-        
+
       </div>
 
 
-      
-      
+
+
       <div className="bottom-section">
         <p className="experience-text">
-          2 años de experiencia en el desarrollo de Software y analisis<br />
+          <span>2 años de experiencia</span> en el desarrollo de Software y analisis<br />
           de datos. Especializado en encontrar soluciones eficientes
         </p>
-        
+
         <div className="social-links">
-        <button className="status-technology">LinkedIn</button>
-        <button className="status-technology">Gitgub</button>
-        <button className="status-technology">Correo</button>
+          <button className="icon-button" aria-label="LinkedIn">
+            <FaLinkedin size={32} />
+          </button>
+          <button className="icon-button" aria-label="GitHub">
+            <FaGithub size={32} />
+          </button>
+          <button className="icon-button" aria-label="Correo">
+            <FaEnvelope size={32} />
+          </button>
           {/* <a href="#" aria-label="LinkedIn">
             <img src="images/linkedin.png" alt="" />
           </a>
@@ -46,5 +63,5 @@ export function SectionTop(){
         </div>
       </div>
     </div>
-      );
+  );
 }
