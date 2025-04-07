@@ -4,40 +4,38 @@ import '../styles/components/Section-AboutMe.css';
 export  function AboutMe() {
   return (
 
-    <div className="container">
-      <div className="content">
-        <h1 className="title">
-          <span role="img" aria-label="man technologist">👨‍💻</span> Sobre Mi
-        </h1>
+    <div className="container-about">
+
+      <div className="content-about">
+        <h2 className="timeline-title">
+           Sobre Mi
+        </h2>
         
         <div className="profile-section">
+          
           <div className="info-box">
             <p className="info-text">
-              Soy un desarrollador apasionado por crear experiencias digitales únicas. 
-              Me especializo en desarrollo web frontend con React y tengo experiencia 
-              trabajando con diversas tecnologías modernas.
+            Desarrollador apasionado por crear experiencias digitales únicas y funcionales. Me motiva transformar ideas en soluciones tecnológicas que impacten positivamente. En un mundo tecnológico que evoluciona constantemente, me mantengo en aprendizaje continuo para adaptarme, innovar y aportar valor en cada proyecto.
             </p>
-            <div>
-              <h2 className="skills-title">Habilidades</h2>
-              <div className="skills-list">
-                {['React', 'TypeScript', 'Next.js', 'CSS', 'Node.js'].map((skill) => (
-                  <span key={skill} className="skill-tag">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
           </div>
 
           <div className="profile-image-container">
-            <img
-              src="/images/aboutMe.jpg"
-              alt="Profile"
-              className="profile-image"
-            />
-
+            <div className='absolute-container'>
+              <img
+                src="/images/aboutMe.webp"
+                alt="Profile"
+                className="profile-image1"
+              />
+              <img
+                src="/images/yoGoogle.webp"
+                alt="Profile"
+                className="profile-image2"
+              />
+            </div>
           </div>
+
         </div>
+
       </div>
     </div>
   );

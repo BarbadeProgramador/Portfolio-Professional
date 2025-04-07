@@ -11,8 +11,6 @@ export function Card({ data }) {
                     className="project-img"
                     src={image}
                     alt=""
-                    width={400}
-                    height={200}
                     layout="responsive"
                 />
             </div>
@@ -20,7 +18,7 @@ export function Card({ data }) {
             <div className="section-tecnology">
                 {tecnologies.map((tech, index) => (
                     <div className="tecnology">
-                        <p key={index}>{tech.name}</p>
+                        <img src={tech.url} alt="" />
                     </div>
                 ))}
             </div>

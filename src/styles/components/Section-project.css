@@ -27,7 +27,6 @@
     padding: 0.5rem 1rem;
     background-color: transparent;
     color: #fff;
-    border: 1px solid #333;
     border-radius: 0.25rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -44,8 +43,10 @@
 
   .project-card{
     /* background-color: darkgreen; */
-    background-color: rgb(32, 33, 41);
+    /* background-color: rgb(37, 36, 39); */
+    background-color: rgba(48, 42, 57, 0.51);
     border: solid 1px;
+    border-color: rgba(0, 0, 0, 0.562);
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -53,31 +54,56 @@
   }
 
   .section-tecnology{
-    background-color: sandybrown;
+    /* background-color: sandybrown; */
+    width: 400px;
     display: flex;
-    gap: 30px;
-    font-size: 12px;
+    justify-content: flex-end;
+    gap: 15px;
   }
 
   .tecnology{
-    margin-top: -12px;
-    border: solid 1px;
-    width: 80px;
-    height: 20px;
-    border-radius: 20px;
+    /* background-color: blue; */
+    padding-top: 5px;
   }
-.section-tecnology p {
-   background-color: #333; 
+
+  .tecnology img {
+    width: 30px;                /* mismo ancho y alto */
+    height: 30px;
+    border-radius: 50%;         /* círculo perfecto */
+    /* background-color: #96141400; */
+    object-fit: contain;        /* para que la imagen no se deforme */
+    padding: 5px;               /* opcional: para espacio interno */
+  }
+
+
+.project-img {
+  border-radius: 12px;         /* Esquinas redondeadas */
+  width: 500px;
+  height: 250px;
+  object-fit: cover;           /* Muestra la imagen recortada para llenar */
+  image-rendering: auto;       /* Controla el escalado (auto está bien en la mayoría) */
+  display: block;
+  object-position: 10% 60% ;    /* Evita espacios en blanco si está en línea */
 }
 
-.project-img{
-    border-radius: 12px;
-    width: 500px;
-    height: 300px;
-    object-fit: cover; /* o 'contain', según el caso */
-    image-rendering: auto; /* o 'high-quality' en navegadores compatibles */
-    display: block;
-  
+.project-info{
+  /* background-color: #333; */
+  padding-left: 12px;
+  max-width: 450px;
+  height: 200px;
+}
+
+.project-title{
+  text-align: center;
+  color: rgb(129, 154, 167);
+  font-size: 30px;
+  margin-top: 0;
+  /* background-color: aqua; */
+}
+
+.project-description{
+  color: rgb(212, 213, 215);
+  font-size: 16px;
 }
 
 @media (min-width: 768px) {

@@ -19,6 +19,7 @@
   font-size: 2rem;
   color: rgb(215, 255, 255);
   margin-bottom: 2rem;
+  font-family: "DM Serif Text", serif;
 }
 
 
@@ -40,7 +41,7 @@
 }
 
 .timeline-content h3 {
-  color: rgb(230, 206, 170);
+  color: rgb(129, 154, 167);
      /* color: rgb(239, 65, 123); */
   /* color: rgb(102, 207, 207); */
 }
@@ -51,7 +52,7 @@
   font-size: 1rem;
   /* color: rgb(239, 65, 123); */
   /* color: rgb(102, 207, 207); */
-  color: rgb(173, 170, 170);
+  color: rgb(110, 107, 103);
 }
 
 .timeline-date {
@@ -63,6 +64,8 @@
 .timeline-description {
   margin: 0.5rem 0 0;
   line-height: 1.5;
+  color: rgb(212, 213, 215);
+  font-size: 16px;
 }
 
 

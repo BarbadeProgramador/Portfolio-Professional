@@ -15,8 +15,8 @@ export function Landing(){
             <SectionTop/>
             <Timeline/>
             <SectionProject/>
-            <Study/>
             <Ability/>
+            <Study/>
             <AboutMe/>
         </div>
         </>

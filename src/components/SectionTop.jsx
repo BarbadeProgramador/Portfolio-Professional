@@ -1,5 +1,5 @@
 import '../styles/components/SectionTop.css'
-import { FaLinkedin, FaGithub, FaEnvelope, FaBriefcase } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope, FaBriefcase, FaFilePdf } from "react-icons/fa";
 import { SplitText } from './ui/Split';
 
 export function SectionTop() {
@@ -14,7 +14,7 @@ export function SectionTop() {
 
         <div className="text-section">
           <div className='content-name'>
-          <h1>Hola, Soy <span>Juan Sebastian Rodriguez</span></h1>
+            <h1>Hola, Soy <span>Juan Sebastian Rodriguez</span></h1>
           </div>
           <p className="role"><strong><span>Desarrollador &</span> Analista</strong></p>
           {/* <div className='button-container'>
@@ -27,7 +27,7 @@ export function SectionTop() {
         </div>
 
         <div className="image-section">
-          <img src="images/budaimagen.png" alt="Gorilla illustration" className='image-gorilla' />
+          <img src="images/budaimagen.webp" alt="Buda illustration" className='image-gorilla' />
         </div>
 
       </div>
@@ -42,15 +42,26 @@ export function SectionTop() {
         </p>
 
         <div className="social-links">
-          <button className="icon-button" aria-label="LinkedIn">
-            <FaLinkedin size={32} />
-          </button>
-          <button className="icon-button" aria-label="GitHub">
-            <FaGithub size={32} />
-          </button>
-          <button className="icon-button" aria-label="Correo">
-            <FaEnvelope size={32} />
-          </button>
+
+          <a href="/files/JuanRV-Curriculum.pdf" download>
+            <button className="icon-button" aria-label="Curriculum">
+              <FaFilePdf size={32} />
+            </button>
+          </a>
+
+
+          <a href="https://www.linkedin.com/in/juanserod/" target="_blank" rel="linekdin">
+            <button className="icon-button" aria-label="LinkedIn">
+              <FaLinkedin size={32} />
+            </button>
+          </a>
+
+          <a href="https://github.com/BarbadeProgramador" target="_blank" rel="git">
+            <button className="icon-button" aria-label="GitHub">
+              <FaGithub size={32} />
+            </button>
+          </a>
+
           {/* <a href="#" aria-label="LinkedIn">
             <img src="images/linkedin.png" alt="" />
           </a>

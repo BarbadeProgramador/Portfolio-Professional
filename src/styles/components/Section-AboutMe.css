@@ -1,99 +1,82 @@
-body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-  }
-  
-  .container {
-    padding: 24px;
-  }
-  
-  .content {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
-  
-  .title {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 1.25rem;
-    font-weight: 500;
-    margin-bottom: 32px;
-  }
-  
+
+.container-about{
+  padding: 2rem;
+  color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* background-color: #4eebc0; */
+  margin-top: 100px;
+  font-family: "DM Serif Text", serif;
+}
+
+.content-about{
+  /* background-color: antiquewhite; */
+}
+
+.profile-section{
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row-reverse;
+  color: rgb(212, 213, 215);
+  font-size: 16px;
+  /* font-family: 'Lato', sans-serif; */
+}
+/* .container-info{
+  background-color: brown;
+  height: auto;
+} */
+
+.info-box{
+  display: flex;
+  align-items: center;
+  /* background-color: aquamarine; */
+  height: 450px;
+}
+
+.profile-image-container{
+  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
+  /* background-color: blueviolet; */
+}
+
+
+
+.profile-image-container img {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  border: solid 4px rgb(169, 212, 236);
+  object-fit: cover;
+}
+
+.absolute-container{
+  /* background-color: azure; */
+  position: relative;
+  width: 500px; /* ajusta según necesidad */
+  height: 450px; /* ajusta según necesidad */
+}
+
+.profile-image1{
+  top: 40px;
+  left: 0;
+  z-index: 1;
+}
+
+.profile-image2{
+  top: 160px; /* ajusta para que quede un poco más abajo */
+  left: 200px; /* ajusta para que se sobreponga */
+  z-index: 2; /* mayor que img1 para que esté encima */
+}
+
+@media (min-width: 768px) {
   .profile-section {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+    flex-direction: row;
+    align-items: flex-start;
   }
-  
+
   .info-box {
-    width: 100%;
-    height: 300px;
-    /* background-color: #1a1a1a; */
-    border-radius: 8px;
-    padding: 24px;
-    box-sizing: border-box;
+    width: 66.666667%;
   }
-  
-  .info-text {
-    color: #a0a0a0;
-  }
-  
-  .skills-title {
-    font-size: 1.125rem;
-    font-weight: 500;
-    margin-bottom: 16px;
-  }
-  
-  .skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  
-  .skill-tag {
-    padding: 4px 12px;
-    background-color: #2a2a2a;
-    border-radius: 9999px;
-    font-size: 0.875rem;
-  }
-  
-  .profile-image-container {
-    position: relative;
-    width: 180px;
-    height: 180px;
-  }
-  
-  .profile-image {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  .profile-tag {
-    position: absolute;
-    top: -8px;
-    right: -8px;
-    padding: 4px 12px;
-    /* background-color: #2a2a2a; */
-    border-radius: 9999px;
-    font-size: 0.875rem;
-    color: #a78bfa;
-  }
-  
-  @media (min-width: 768px) {
-    .profile-section {
-      flex-direction: row;
-      align-items: flex-start;
-    }
-  
-    .info-box {
-      width: 66.666667%;
-    }
-  }
-  
-  
+}
