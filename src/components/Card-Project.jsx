@@ -1,8 +1,8 @@
 export function Card({ data }) {
     const { tecnologies, title, description,image} = data;
 
-    console.log(data)
-    console.log(title)
+    // console.log(data)
+    // console.log(title)
 
     return (
         <div className="project-card">

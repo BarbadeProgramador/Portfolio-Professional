@@ -12,7 +12,7 @@ export  function Study(){
   
     useEffect(() => {
       setData(dataInter);
-      console.log(dataInter)
+      // console.log(dataInter)
     }, [])
   
   

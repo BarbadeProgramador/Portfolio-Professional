@@ -1,5 +1,4 @@
 export function Card_Ability({ data }) {
-    console.log(data); // { name: "React", img: "..." }
 
     return (
         <div className="content-tecnology">

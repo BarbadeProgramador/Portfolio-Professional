@@ -5,7 +5,7 @@ import { Card_Ability } from './Tecnologys';
 export function Ability() {
 
     let tecnologias = Technologies
-    console.log(tecnologias)
+    // console.log(tecnologias)
 
     return (
         <div className="timeline-container">
