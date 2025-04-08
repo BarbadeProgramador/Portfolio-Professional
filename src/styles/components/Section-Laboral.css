@@ -1,5 +1,6 @@
 .timeline-container {
   padding: 2rem;
+  /* background-color: blue; */
   color: white;
   max-width: 1000px;
   margin: 0 auto;
@@ -8,6 +9,16 @@
   font-family: "DM Serif Text", serif;
 }
 
+@media (max-width: 767px){
+  .timeline-container{
+    /* max-width: auto; */
+    width: 500px;
+    /* background-color: blueviolet; */
+  }
+
+
+  
+}
 .image-content{
   /* background-color: #b14eeb; */
   display: flex;
@@ -66,6 +77,7 @@
   line-height: 1.5;
   color: rgb(212, 213, 215);
   font-size: 16px;
+  /* text-align: justify; */
 }
 
 

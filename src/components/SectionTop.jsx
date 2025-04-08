@@ -2,8 +2,10 @@ import '../styles/components/SectionTop.css'
 import { FaLinkedin, FaGithub, FaEnvelope, FaBriefcase, FaFilePdf } from "react-icons/fa";
 import { SplitText } from './ui/Split';
 
-export function SectionTop() {
+export  function  SectionTop() {
+
   return (
+    
     <div className="hero-container">
 
       <div className="hero-content">
@@ -43,7 +45,7 @@ export function SectionTop() {
 
         <div className="social-links">
 
-          <a href="/files/JuanRV-Curriculum.pdf" download>
+          <a href="/files/Curriculum-JuanRV.pdf" download>
             <button className="icon-button" aria-label="Curriculum">
               <FaFilePdf size={32} />
             </button>

@@ -69,14 +69,13 @@
   left: 200px; /* ajusta para que se sobreponga */
   z-index: 2; /* mayor que img1 para que esté encima */
 }
-
-@media (min-width: 768px) {
+@media (max-width: 768px){
   .profile-section {
-    flex-direction: row;
-    align-items: flex-start;
+    flex-direction: column;
   }
 
   .info-box {
-    width: 66.666667%;
+    /* background-color: blanchedalmond; */
+    width: 450px;
   }
 }

@@ -36,25 +36,7 @@ body{
   /* gap: 0; */
   
 }
-@media (max-width: 768px) {
-  .hero-content {
-    flex-direction: column;
-    text-align: center;
-  }
 
-  .image-gorilla {
-    width: 80%;
-  }
-
-  /* .social-links{
-    gap: -10px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: aliceblue;
-  } */
-
-}
 
 /* Nombre y cargo  */
 .text-section{
@@ -169,6 +151,43 @@ h1 span{
   }
 }
 
+
+@media (max-width: 818px) {
+
+  .hero-container{
+    text-align: center;
+    padding-left: 100px;
+  }
+  .hero-content {
+    flex-direction: column;
+  }
+  
+
+  /* .social-links{
+    gap: -10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+  } */
+  .content-message{
+    /* background-color: yellowgreen; */
+    width: 400px;
+    margin-left: 100px;
+    overflow: hidden;
+  }
+  
+  .bottom-section{
+    background-color: rgb(187, 187, 138);
+    width: 300px;
+  }
+
+  .social-links{
+    /* background-color: white; */
+    margin-top: 50px;
+    padding-left: 20px;
+   }
+}
 
 .icon-button:hover{
   background-color: rgb(239, 65, 123);

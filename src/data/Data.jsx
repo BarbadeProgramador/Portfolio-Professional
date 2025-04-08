@@ -14,7 +14,7 @@ const jobSearch = [
 export const Experience = [
   {
     image: 'images/mocion_logo.webp',
-    enterphrise: 'Moción Experience Tech', // Corregido: Moncion -> Moción
+    enterphrise: 'Mocion Experience Tech', 
     title: 'Full Stack Developer',
     subTitle: 'data',
     date: 'oct 2024 - dic 2024',
