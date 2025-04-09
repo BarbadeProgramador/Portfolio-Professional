@@ -4,7 +4,7 @@ import '../styles/components/Section-AboutMe.css';
 export  function AboutMe() {
   return (
 
-    <div className="container-about" data-aos="fade-up">
+    <div className="container-about">
 
       <div className="content-about">
         <h2 className="timeline-title">
