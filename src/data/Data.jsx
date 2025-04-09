@@ -299,9 +299,10 @@ export const Study_data = [
 //SECTION TECNOLOGY
 
 export const Technologies = [
+  
   {
-    name: "WORDPRESS",
-    img: "https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg"
+    name: "FIGMA",
+    img: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
   },
   {
     name: "CSS",
@@ -324,12 +325,12 @@ export const Technologies = [
   img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg"
   },
   {
-    name: "GIT",
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+    name: "NODE JS",
+    img: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
   },
   {
-    name: "FIGMA",
-    img: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+    name: "GIT",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
   },
   {
     name: "SQL",
