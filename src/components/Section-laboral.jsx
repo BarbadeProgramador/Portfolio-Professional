@@ -27,7 +27,7 @@ export function Timeline() {
 
           <div key={experience.title} className="timeline-content">
             <div className='image-content'>
-             <img className='image-work' src={experience.image} alt="image_work" /> 
+             <img className='image-work' src={experience.image} alt="image_work" loading="lazy"/> 
             </div>
 
             <div className='description-content'>

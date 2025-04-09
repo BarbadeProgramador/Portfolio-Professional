@@ -25,11 +25,13 @@ export  function AboutMe() {
                 src="/images/aboutMe.webp"
                 alt="Profile"
                 className="profile-image1"
+                loading="lazy"
               />
               <img
                 src="/images/yoGoogle.webp"
                 alt="Profile"
                 className="profile-image2"
+                loading="lazy"
               />
             </div>
           </div>

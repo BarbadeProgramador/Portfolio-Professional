@@ -12,13 +12,14 @@ export function Card({ data }) {
                     src={image}
                     alt=""
                     layout="responsive"
+                    loading="lazy"
                 />
             </div>
 
             <div className="section-tecnology">
                 {tecnologies.map((tech, index) => (
                     <div className="tecnology">
-                        <img src={tech.url} alt="" />
+                        <img src={tech.url} alt="" loading="lazy" />
                     </div>
                 ))}
             </div>

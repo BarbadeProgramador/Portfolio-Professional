@@ -29,7 +29,7 @@ export  function  SectionTop() {
         </div>
 
         <div className="image-section">
-          <img src="images/budaimagen.webp" alt="Buda illustration" className='image-gorilla' />
+          <img src="images/budaimagen.webp" alt="Buda illustration" className='image-gorilla' loading="lazy"/>
         </div>
 
       </div>
