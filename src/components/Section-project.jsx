@@ -13,8 +13,8 @@ export function SectionProject() {
   const Personal = Projects_personal
 
   return (
-    <section className="projects-section">
-      <div className="container">
+    <section className="projects-section" data-aos="fade-up">
+      <div className="container" >
         <h2 className="section-title">&lt;/&gt; Proyectos</h2>
 
         <div className="filter-buttons">

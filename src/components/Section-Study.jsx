@@ -18,7 +18,7 @@ export  function Study(){
   
 
   return (
-    <div className="timeline-container">
+    <div className="timeline-container" data-aos="fade-up">
     <h2 className="timeline-title">Estudios y Certificaciones</h2>
 
     <div className="timeline">

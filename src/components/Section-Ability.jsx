@@ -8,7 +8,7 @@ export function Ability() {
     // console.log(tecnologias)
 
     return (
-        <div className="timeline-container">
+        <div className="timeline-container" data-aos="fade-up">
             <h2 className="timeline-title">Stack Tecnologico</h2>
                 <div className="container-ability">
                     {tecnologias.map((tecnologia, index) => (

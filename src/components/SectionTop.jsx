@@ -6,16 +6,16 @@ export  function  SectionTop() {
 
   return (
     
-    <div className="hero-container">
+    <div className="hero-container" >
 
-      <div className="hero-content">
+      <div className="hero-content" > 
 
-        <div className='content-message'>
+        <div className='content-message' data-aos="fade-up">
           <p><span>"Imagina sin límites y actúa con decisión..." </span> - Brain Tracy</p>
         </div>
 
-        <div className="text-section">
-          <div className='content-name'>
+        <div className="text-section"  >
+          <div className='content-name' >
             <h1>Hola, Soy <span>Juan Sebastian Rodriguez</span></h1>
           </div>
           <p className="role"><strong><span>Desarrollador &</span> Analista</strong></p>
