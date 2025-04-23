@@ -23,7 +23,7 @@ export const Experience = [
   {
     image: 'images/seguridad_oncor_logo.webp',
     enterphrise: 'Seguridad Oncor LTDA',
-    title: 'Backend Junior Developer',
+    title: 'Analyst - Backend Developer',
     subTitle: 'data',
     date: 'oct 2022 - ago 2024',
     description: 'Lideré un equipo de practicantes en el desarrollo de un software de gestión de solicitudes y órdenes de compra con módulos específicos para diferentes áreas ejecutivas como Medios Tecnológicos, Compras y Contabilidad, utilizando Python como lenguaje principal; diseñé e implementé un modelo relacional orientado a la escalabilidad de la lógica de negocio del proyecto; gestioné el versionamiento colaborativo del código mediante Git y GitHub; desarrollé aplicaciones web funcionales para automatizar procesos operativos en distintas áreas, brindando soporte continuo a los sistemas web y móviles principales de la empresa; creé informes interactivos en Power BI para visualizar datos relevantes y capacitar al personal en su uso; y realicé tareas de análisis y manejo de bases de datos utilizando SQL Server y hojas de cálculo para garantizar la integridad y utilidad de la información en la toma de decisiones.' // Corregido: areas -> áreas, informacion -> información
