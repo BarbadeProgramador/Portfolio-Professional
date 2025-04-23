@@ -299,15 +299,6 @@ export const Study_data = [
 //SECTION TECNOLOGY
 
 export const Technologies = [
-  
-  {
-    name: "FIGMA",
-    img: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
-  },
-  {
-    name: "CSS",
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-  },
   {
     name: "PYTHON",
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
@@ -315,7 +306,16 @@ export const Technologies = [
   {
     name: "DJANGO",
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+  },  
+  {
+    name: "SQL",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
   },
+  {
+    name: "CSS",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+  },
+
   {
     name: "PHP",
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
@@ -333,8 +333,8 @@ export const Technologies = [
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
   },
   {
-    name: "SQL",
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+    name: "FIGMA",
+    img: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
   },
   {
     name: "IA",
