@@ -70,6 +70,19 @@ export const Projects_Professional = [
     names: 'Creador'
   },
   {
+    image: 'images/dashboard.webp',
+    title: 'Dashboard Análisis de Vigilancia', // Corregido: Analisis -> Análisis
+    description: 'Dashboard interactivo para monitorear y evaluar el rendimiento de las rondas realizadas por los guardas a nivel nacional y permitiendo visualizar a los clientes todos los movimientos.', // Corregido: movientos -> movimientos
+    tecnologies: [
+      { name: 'PowerBI', // Nota: Podría ser 'Power BI' si se desea el espacio, pero 'PowerBI' es aceptable como nombre técnico aquí.
+        url: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/powerbi.svg',
+       },
+      { name: 'SQL Server',
+        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg', }
+    ],
+    names: 'Participación' // Corregido: Participacion -> Participación
+  },
+  {
     image: 'images/IAmusic.webp',
     title: 'IA Music',
     description: 'Aplicativo que convierte todo lo que dices en una canción esto gracias a la Inteligencia Artificial. Este aplicativo fue presentado en Colombia 4.0 2024', // Corregido: cancion -> canción, Intelengicia -> Inteligencia
@@ -122,19 +135,6 @@ export const Projects_Professional = [
       }
     ],
     names: 'Time Tracker'
-  },
-  {
-    image: 'images/dashboard.webp',
-    title: 'Dashboard Análisis de Vigilancia', // Corregido: Analisis -> Análisis
-    description: 'Dashboard interactivo para monitorear y evaluar el rendimiento de las rondas realizadas por los guardas a nivel nacional y permitiendo visualizar a los clientes todos los movimientos.', // Corregido: movientos -> movimientos
-    tecnologies: [
-      { name: 'PowerBI', // Nota: Podría ser 'Power BI' si se desea el espacio, pero 'PowerBI' es aceptable como nombre técnico aquí.
-        url: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/powerbi.svg',
-       },
-      { name: 'SQL Server',
-        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg', }
-    ],
-    names: 'Participación' // Corregido: Participacion -> Participación
   }
 ]
 
