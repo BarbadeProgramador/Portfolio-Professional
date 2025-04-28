@@ -38,14 +38,11 @@ export const Projects_Professional = [
     title: 'Kardex Digital',
     description: 'Aplicativo web de gestión y entrega de dotación para los nuevos y antiguos trabajadores de la empresa conectándose a las bases de datos internas y gestionando una API para la transacción de información al CRM principal', // Corregido: gestion -> gestión, dotacion -> dotación, conectanse -> conectándose, api -> API, transaccion -> transacción, informacion -> información
     tecnologies: [
-      {
-        name: 'Php',
-        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
-      },
-      {
-        name: 'Laravel',
-        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg',
-      },
+      { name: 'Python',
+        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+       },
+      { name: 'Django',
+        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg', },
       {
         name: 'SQL Server',
         url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg',
@@ -217,6 +214,11 @@ export const Projects_personal = [
     title: 'Sistema de Roles',
     description: 'Modelo relacional creado para la gestión y autorización de roles desde SQL internamente todo con Stored Procedures', // Corregido: gestion -> gestión, autorizacion -> autorización
     tecnologies: [
+      { name: 'Python',
+        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+       },
+      { name: 'Django',
+        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg', },
       { name: 'JavaScript',
         url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
        },
