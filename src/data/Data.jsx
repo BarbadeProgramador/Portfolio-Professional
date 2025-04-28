@@ -38,11 +38,14 @@ export const Projects_Professional = [
     title: 'Kardex Digital',
     description: 'Aplicativo web de gestión y entrega de dotación para los nuevos y antiguos trabajadores de la empresa conectándose a las bases de datos internas y gestionando una API para la transacción de información al CRM principal', // Corregido: gestion -> gestión, dotacion -> dotación, conectanse -> conectándose, api -> API, transaccion -> transacción, informacion -> información
     tecnologies: [
-      { name: 'Python',
-        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
-       },
-      { name: 'Django',
-        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg', },
+      {
+        name: 'Php',
+        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
+      },
+      {
+        name: 'Laravel',
+        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg',
+      },
       {
         name: 'SQL Server',
         url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg',
